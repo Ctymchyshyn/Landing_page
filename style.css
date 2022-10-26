@@ -3,20 +3,16 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-   
-
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-
 }
 
 .links {
     list-style-type: none;
     display: flex;
-   
 }
 
 a {
@@ -27,7 +23,13 @@ a {
 
 .box1 {
     background-color: #1f2937 
-    
+}
+.b1-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 25px;
 }
 
 .big-text {
