@@ -8,28 +8,31 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+
+   
 }
 
 .links {
     list-style-type: none;
     display: flex;
+    gap: 16px;
 }
 
 a {
     color: #E5E7EB;
     text-decoration: none;
-    padding: 0 16px;
+}
+.box1 {
+    padding: 24px 100px 100px 100px;
+    background-color: #1f2937
 }
 
-.box1 {
-    background-color: #1f2937 
-}
 .b1-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 50px 25px;
+   
+    
 }
 
 .big-text {
@@ -44,6 +47,10 @@ a {
 button {
     background-color: #3882f6;
     color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 16px;
+
 }
 
 p {
@@ -51,6 +58,10 @@ font-size: 36px;
 font-weight: 900;
 color: #1f2937;
 text-align: center;
+}
+
+.box2 {
+    padding: 16px 0 72px 0;
 }
 
 .cards {
@@ -68,6 +79,7 @@ text-align: center;
     flex-direction: column;
     background-color: #E5E7EB;
     text-align: center;
+    padding: 72px;
 }
 .quote {
     font-size: 36px;
@@ -78,17 +90,34 @@ text-align: center;
 .bold-text {
     font-weight: 900;
     align-self: flex-end;
-    width: 1000px;
+    width: 850px;
     color: #1f2937;
+}
+
+.box4 {
+   margin: 72px 100px;
+   
 }
 .container {
     background-color: #3882f6;
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.container button {
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    align-self: center;
 }
 
 .container .big-text {
-    font-size: 36px;
+    font-size: 24px;
 }
 .footer {
     background-color: #1f2937;
     color: white;
+    text-align: center;
+    padding: 24px;
 }
