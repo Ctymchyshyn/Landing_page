@@ -50,7 +50,23 @@ p {
 font-size: 36px;
 font-weight: 900;
 color: #1f2937;
+text-align: center;
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+  
+}
+
+.text {
+    width: 100px;
+}
+
+
+
 
 .box3 {
     background-color: #E5E7EB;
