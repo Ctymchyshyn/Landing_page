@@ -64,11 +64,21 @@ text-align: center;
 }
 
 .box3 {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    text-align: center;
 }
 .quote {
     font-size: 36px;
     font-style: light italic;
+    color: #1f2937;
+}
+
+.bold-text {
+    font-weight: 900;
+    align-self: flex-end;
+    width: 1000px;
     color: #1f2937;
 }
 .container {
