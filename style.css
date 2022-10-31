@@ -71,6 +71,11 @@ text-align: center;
     gap: 16px;
 }
 
+.cards img {
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
 .text {
     width: 100px;
 }
